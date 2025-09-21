@@ -52,7 +52,7 @@ cd ..
 Create a collection users with the following document:
 ```bash
 "name": "owner name",
-"phoneNumber": "your phone number",
+"phoneNumber": "your phone number example: +84334237435",
 "role": "owner",
 ```
 
