@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "concurrently": "^9.2.1",
+    "dotenv": "^17.2.2",
+    "textlink-sms": "^0.0.3"
+  },
+  "name": "real-time-employee-task-management-tool",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "run": "echo \"Error: no test specified\" && exit 1",
+    "client": "cd frontend && npm run dev",
+    "server": "cd backend && npm start",
+    "start": "concurrently \"npm run client\" \"npm run server\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
