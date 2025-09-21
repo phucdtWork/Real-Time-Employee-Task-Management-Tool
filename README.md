@@ -39,11 +39,22 @@ npm install
 cd backend npm i
 cd ..
 cd frontend npm i
+cd ..
 ```
 
 ### 2. Setup environment variables
 
-Download `.env` file (https://drive.google.com/file/d/1RotF_cNCzozVHAWzwLhtGFMmXiC3HWyQ/view?usp=drive_link)
+- Download `.env` file (https://drive.google.com/file/d/1RotF_cNCzozVHAWzwLhtGFMmXiC3HWyQ/view?usp=drive_link)
+- Settup firebase value with user your firebase database
+
+### 4. Setup owner account for login on your firebase to login with phone number
+
+Create a collection users with the following document:
+```bash
+"name": "owner name",
+"phoneNumber": "your phone number",
+"role": "owner",
+```
 
 ### 3. Run the application
 
@@ -51,14 +62,6 @@ Download `.env` file (https://drive.google.com/file/d/1RotF_cNCzozVHAWzwLhtGFMmX
 npm start  # Runs both frontend and backend
 ```
 
-### 4. Setup owner account for login on your firebase to login with phone number
-
-Create a collection users with the following document:
-json{
-"name": "owner name",
-"phoneNumber": "your phone number",
-"role": "owner",
-}
 
 ## Available Scripts
 
@@ -73,7 +76,7 @@ json{
 - Real-time chat between owner and employees
 - SMS notifications via TextLink
 - Email notifications via Nodemailer
-- User role management (Owner/Employee)
+- Employee management
 - Access code authentication
 
 ## Screenshots
