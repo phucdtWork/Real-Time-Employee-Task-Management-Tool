@@ -34,7 +34,7 @@ real-time-employee-task-management-tool/
 
 ```bash
 git clone <repository-url>
-cd real-time-employee-task-management-tool
+cd Real-Time-Employee-Task-Management-Tool
 npm install
 cd backend npm i
 cd ..
@@ -77,6 +77,7 @@ npm start  # Runs both frontend and backend
 - SMS notifications via TextLink
 - Email notifications via Nodemailer
 - Employee management
+- Task management
 - Access code authentication
 
 ## Screenshots
