@@ -59,7 +59,7 @@ function UpdateTask({ record, onUpdate, employeeList }) {
         Update
       </Button>
       <Modal
-        title="Create Employee"
+        title="Update task"
         open={isOpen}
         onCancel={handleCancel}
         footer={null}

@@ -45,7 +45,7 @@ function CreateTask({ onCreate, employeeList }) {
         Create Task
       </Button>
       <Modal
-        title="Create Employee"
+        title="Create Task"
         open={isOpen}
         onCancel={handleCancel}
         footer={null}
