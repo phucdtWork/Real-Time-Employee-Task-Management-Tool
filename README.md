@@ -51,6 +51,15 @@ Download `.env` file (https://drive.google.com/file/d/1RotF_cNCzozVHAWzwLhtGFMmX
 npm start  # Runs both frontend and backend
 ```
 
+### 4. Setup owner account for login on your firebase to login with phone number
+
+Create a collection users with the following document:
+json{
+"name": "owner name",
+"phoneNumber": "your phone number",
+"role": "owner",
+}
+
 ## Available Scripts
 
 | Script           | Description                   |

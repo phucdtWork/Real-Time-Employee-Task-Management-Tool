@@ -26,10 +26,13 @@ function LoginPage() {
         toast.success("Access code sent to your phone.");
         setLoading(false);
       }
+      setLoading(false);
     } catch (error) {
       if (error.status === 404) {
+        setLoading(false);
         toast.error("User not found. or not an owner.");
       } else {
+        setLoading(false);
         toast.error("Error creating access code.", error.message);
       }
     }
