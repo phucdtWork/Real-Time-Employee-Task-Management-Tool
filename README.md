@@ -45,7 +45,7 @@ cd ..
 ### 2. Setup environment variables
 
 - Download `.env` file (https://drive.google.com/file/d/1RotF_cNCzozVHAWzwLhtGFMmXiC3HWyQ/view?usp=drive_link)
-- Settup firebase value with user your firebase database
+- Replace values ​​in firebase to use your firebase database
 
 ### 4. Setup owner account for login on your firebase to login with phone number
 
