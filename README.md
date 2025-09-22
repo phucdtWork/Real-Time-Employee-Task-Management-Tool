@@ -16,13 +16,13 @@
 Real-Time-Employee-Task-Management-Tool/
 ├── backend/
 │   ├── src/
-│   │   ├── config/
-│   │   ├── controller/
-│   │   ├── middleware/
-│   │   ├── routes/
-│   │   ├── services/
-│   │   └── utils/
-│   └── server.js
+│   │   ├── config/         # Database configuration and environment settings
+│   │   ├── controller/     # Handle HTTP requests and responses
+│   │   ├── middleware/     # Authentication, validation, and logging functions
+│   │   ├── routes/         # API endpoint definitions and routing
+│   │   ├── services/       # Business logic and data processing
+│   │   └── utils/          # Helper functions and utility tools
+│   └── server.js           # Main application entry point and server setup
 ├── frontend/
 │   ├── src/
 │   │   ├── apis/           # API services
