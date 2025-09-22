@@ -13,19 +13,33 @@
 ## Project Structure
 
 ```
-real-time-employee-task-management-tool/
-├──  frontend/src/
-│   ├──  components/    # UI components
-│   ├──  pages/         # Page components
-│   ├──  apis/          # API services
-│   └──  utils/         # Utilities
-├──  backend/src/
-│   ├──  controllers/   # Route controllers
-│   ├──  services/      # Business logic
-│   ├──  routes/        # API routes
-│   └──  config/        # Configuration
-├──  screenshots/       # Application screenshots
-└──  .env               # Environment variables
+Real-Time-Employee-Task-Management-Tool/
+├── backend/
+│   ├── src/
+│   │   ├── config/
+│   │   ├── controller/
+│   │   ├── middleware/
+│   │   ├── routes/
+│   │   ├── services/
+│   │   └── utils/
+│   └── server.js
+├── frontend/
+│   ├── src/
+│   │   ├── apis/           # API services
+│   │   ├── assets/         # Static assets (images, fonts, etc.)
+│   │   ├── components/     # UI components
+│   │   ├── layouts/        # Layout components
+│   │   ├── pages/          # Page components
+│   │   ├── routes/         # Routing configuration
+│   │   ├── service/        # Business logic services
+│   │   ├── utils/          # Utilities and helpers
+│   │   ├── App.jsx         # Root component
+│   │   ├── index.css       # Global styles
+│   │   └── main.jsx        # App entry point (React mount)
+│   └── index.html
+├── screenShort/
+├── .env
+└── README.md
 ```
 
 ## Installation & Setup
@@ -35,7 +49,7 @@ real-time-employee-task-management-tool/
 ```bash
 git clone <repository-url>
 cd Real-Time-Employee-Task-Management-Tool
-npm install
+npm i
 cd backend npm i
 cd ..
 cd frontend npm i
@@ -45,9 +59,9 @@ cd ..
 ### 2. Setup environment variables
 
 - Download `.env` file (https://drive.google.com/file/d/1RotF_cNCzozVHAWzwLhtGFMmXiC3HWyQ/view?usp=drive_link)
-- Replace values ​​in firebase to use your firebase database
+- Replace values in firebase to use your firebase database (note: you should use your own firebase and set up an owner account following the instructions to be able to log into the system, as the current owner's phoneNumber is still mine)
 
-### 4. Setup owner account for login on your firebase to login with phone number
+### 3. Setup owner account for login on your firebase to login with phone number
 
 Create a collection users with the following document:
 ```bash
@@ -56,7 +70,7 @@ Create a collection users with the following document:
 "role": "owner",
 ```
 
-### 3. Run the application
+### 4. Run the application
 
 ```bash
 npm start  # Runs both frontend and backend
