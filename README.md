@@ -97,43 +97,43 @@ npm start  # Runs both frontend and backend
 ## Screenshots
 
 ### Authentication
-
+#### Login with phone number for Owner
 ![Login with Phone number for Owner ](/screenShort/Login-with-phone-number.png)
-
+#### Login by user name and password for Employee
 ![Login with User and Password for Employee ](/screenShort/login-with-username.png)
-
+#### Login by email for Employee
 ![Login with Email for Employee ](/screenShort/login-with-email.png)
-
+#### Verification code screen
 ![verification code screen ](/screenShort/verification-code-screen.png)
 
 ### Manage Employee
-
+#### List of employee
 ![List of employee ](/screenShort/manage-employee-screen.png)
-
+#### Create employee popup
 ![Crete employee ](/screenShort/create-employee.png)
-
+#### Register username and password for Employee after click on setup link from Owner
 ![Register user name and password for Employee with setup lin ](/screenShort/reigester-screen-in-settup-link.png)
-
+#### Update employee
 ![Update employee ](/screenShort/update-employee.png)
-
+#### Delete employee
 ![Delete employee ](/screenShort/delete-employee.png)
 
 ### Manage task
-
-![Manage task screen for Owner ](/screenShort/manage-task.png)
-
+#### Manage task screen for Owner
+![Manage task screen for Owner ](/screenShort/manage-task)
+#### Manage task screen for employee
 ![Manage task screen for Employee ](/screenShort/manage-task-for-employee.png)
-
+#### Create task for Owner
 ![Create task screen ](/screenShort/create-task-screen.png)
-
+#### Update task for Owner
 ![Update task screen ](/screenShort/update-task-screen.png)
-
+#### Delete task for Owner
 ![Delete task screen ](/screenShort/delete-task-screen.png)
 
 ### Message page
-
+#### Chat list for Employee
 ![Message screen for Employee ](/screenShort/chat-message-screen-employee.png)
-
+#### Chat list for Owner
 ![Message screen for Owner ](/screenShort/chat-message-screen-employee.png)
 
 ---
